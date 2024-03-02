@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    text-align: center;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.set {
+    margin: 5% auto;
+}
+
+.drum {
+    outline: none;
+    border: 10px solid black;
+    font-size: 5rem;
+    font-family: monospace;
+    line-height: 2px;
+    font-weight: 900;
+    color: rgb(248, 46, 255);
+    text-shadow: 3px 0 white;
+    border-radius: 25%;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.a {
+    background-image: url("Images/tom1.png");
+}
+
+.w {
+    background-image: url("Images/tom2.png");
+}
+
+.s {
+    background-image: url("Images/tom3.png");
+}
+
+.d {
+    background-image: url("Images/tom4.png");
+}
+
+.j {
+    background-image: url("Images/crash.png");
+}
+
+.k {
+    background-image: url("Images/kick.png");
+}
+
+.l {
+    background-image: url("Images/snare.png");
+}
+
+footer {
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+p {
+    font-size: larger;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
